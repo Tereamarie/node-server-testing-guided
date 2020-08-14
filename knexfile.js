@@ -27,7 +27,7 @@ module.exports = {
       directory: "./data/seeds",
     },
   },
-
+// for HEROKU
   production: {
     client: "pg",
     connection: pgConnection,
