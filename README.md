@@ -17,7 +17,8 @@ Please follow along as the instructor adds automated tests to the API.
 - `jest --init`
 -  pick `node` instead of `jsdom` when given th option.
 - install `Supertest`
-## Testing Endpoints
+
+q## Testing Endpoints
 - run the server
 - make a request to the endpoint
 - inspect the response
@@ -28,3 +29,10 @@ Please follow along as the instructor adds automated tests to the API.
 - function (args) {return value}---> invoke the function
 - Component(props)=> UI (as JSX); --> render the component
 - Endpoint(request data) => response; --> make a request to the endpoint.
+
+
+## Modified TDD workflow
+- failing test
+- passing test
+- refactor
+- commit
